@@ -3,6 +3,8 @@ package objectCreationTasks;
 public class Library {
 	
 	public static void main(String[] args) {
+		String s = "Hello";
+		
 		Book book1 = new Book();
 		book1.title = "Zero to One";
 		book1.author = "Blake Masters";
