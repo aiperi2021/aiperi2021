@@ -25,9 +25,9 @@ public class Store {
 	
 	public void seeInventory() {
 		// Using traditional for loop
-//		for(int i = 0; i < storeItems.size(); i++) {
-//			storeItems.get(i).info();
-//		}
+		for(int i = 0; i < storeItems.size(); i++) {
+			storeItems.get(i).info();
+		}
 		// Using foreach loop
 		for(Item i: storeItems) {
 			i.info();

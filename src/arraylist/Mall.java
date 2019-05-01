@@ -12,6 +12,7 @@ public class Mall {
 		Item mouse = new Item("Computer mouse", 44.99);
 		Item pen = new Item("Mount Bla Bla", 120);
 		myStore.addItem(mouse);
+		
 		myStore.addItem(pen);
 		myStore.seeInventory();
 		System.out.println(myStore.numOfItems);
