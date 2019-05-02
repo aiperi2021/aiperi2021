@@ -15,7 +15,20 @@ public class Mall {
 		
 		myStore.addItem(pen);
 		myStore.seeInventory();
-		System.out.println(myStore.numOfItems);
-		System.out.println(myStore.storeItems);
+		System.out.println("\nSelling something");
+		myStore.sell("Computer mouse");
+		myStore.sell("Mount Bla Bla");
+		myStore.seeInventory();
+		System.out.println("Total sales: " + myStore.totalSales);
+		myStore.refund(mouse);
+		myStore.seeInventory();
+		System.out.println("Total sales: " + myStore.totalSales);
+		
 	}
 }
+
+
+
+
+
+
