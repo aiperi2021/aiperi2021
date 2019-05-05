@@ -16,7 +16,6 @@ public class Item {
 		System.out.println("Price: " + this.price + " $");
 	}
 	
-	
 }
 
 

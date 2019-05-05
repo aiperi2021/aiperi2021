@@ -2,11 +2,15 @@ package constructors;
 
 public class DebitCard {
 	
-	String holderName;
-	String cardNumber;
-	double balance;
+	public String holderName;
+	public String cardNumber;
+	private double balance;
 	int pin;
 	String type;
+	
+	public DebitCard() {
+		
+	}
 	
 	public DebitCard(String holderName, String cardNum, double balance, int pin, String type) {
 		this.holderName = holderName;
@@ -29,7 +33,14 @@ public class DebitCard {
 		}
 	}
 	
+	public static void m2() {
+		System.out.println("M2 method");
+		m();
+	}
 	
+	private static void m() {
+		System.out.println("M method");
+	}
 
 	
 	

@@ -7,6 +7,28 @@ public class MyCollection {
 	
 	static Scanner input = new Scanner(System.in);
 	
+	public static ArrayList<String> removeDuplicates(ArrayList<String> words){
+		
+		ArrayList<String> newList = new ArrayList<>();
+		for(String w: words) {
+			if(newList.contains(w)) {
+				continue;
+			}
+			newList.add(w);
+		}
+		return newList;
+	}
+	
+	public static ArrayList<String> filterList(ArrayList<String> words, int length){
+		ArrayList<String> result = new ArrayList<>();
+		for(String word: words) {
+			if(word.length() == length) {
+				result.add(word);
+			}
+		}
+		return result;
+	}
+	
 	public static ArrayList<String> getStringList(){
 		ArrayList<String> words = new ArrayList<>();
 		String response;
