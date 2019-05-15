@@ -10,7 +10,7 @@ public class Table extends Object{
 		// age is not inherited into Dog. Becuase it's private member
 		d.eat();
 		d.gender = "female";
-		d.color = "Red";
+		
 	}
 
 }
