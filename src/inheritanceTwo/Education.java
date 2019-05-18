@@ -3,6 +3,7 @@ package inheritanceTwo;
 public class Education {
 	
 	public static void main(String[] args) {
+		
 		CodingBootcamp cb = new CodingBootcamp();
 		cb.name = "Cybertek";
 		cb.address = "2700 S River rd";

@@ -15,7 +15,16 @@ public class Animal {
 		return a;
 	}
 	
-	public void eat() {
-		System.out.println("Aminal is eating");
+	protected void eat() {
+		System.out.println("Animal is eating");
 	}
 }
+
+
+
+
+
+
+
+
+

@@ -9,12 +9,10 @@ public class Review_Conditionals_AND_Loops {
 	
 		String name1 = "";
 		
-		System.out.println(ch);
-		
 		
 		for (int i = 0; i < name.length(); i++) {
 			
-	      name1 = Character.valueOf(name.charAt(i)+" ");
+//	      name1 = Character.valueOf(name.charAt(i)+" ");
 	   
 			
 		}
