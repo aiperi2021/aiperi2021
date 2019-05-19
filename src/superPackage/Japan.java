@@ -3,7 +3,6 @@ package superPackage;
 public class Japan extends Country {
 	
 	public Japan() {
-		System.out.println("hey guys");
 		super("Whatever");
 	}
 	
