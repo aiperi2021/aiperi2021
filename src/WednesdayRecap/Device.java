@@ -10,11 +10,11 @@ public class Device {
 
 	public void turnOn() {
 		isOn = true;
-		System.out.println("Device is On");
+		System.out.println("Flower is On");
 	}
 
 	public void turnOff() {
 		isOn = false;
-		System.out.println("Device is Off");
+		System.out.println("Flower is Off");
 	}
 }
